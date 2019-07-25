@@ -19,7 +19,7 @@ class App extends Component {
   imageClick = event => {
     const currentFruit = event.target.alt;
     const AlreadyClickedFruit =
-      this.state.clickedFruit.idexOf(currentFruit) > -1;
+      this.state.clickedFruit.indexOf(currentFruit) > -1;
 
     //* click on a fruit that has been selected, reset the game.
     if (AlreadyClickedFruit) {
