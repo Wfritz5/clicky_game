@@ -1,0 +1,16 @@
+import React, { component } from "react";
+import "./style.css";
+
+class Navbar extends Component {
+  render() {
+    return (
+      <nav className="navbar navbar-default navbar-fixed-top">
+        <ul>
+          <li className="itemScore">Score: {this.props.score}</li>
+        </ul>
+      </nav>
+    );
+  }
+}
+
+export default Navbar;
