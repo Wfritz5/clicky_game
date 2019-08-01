@@ -8,6 +8,9 @@ class Navbar extends Component {
         <ul>
           <li className="itemScore">Score: {this.props.score}</li>
         </ul>
+        {
+          this.props.score === 12 ? <h1>You Won!</h1> : <h1>Keep Trying</h1>
+        }
       </nav>
     );
   }
