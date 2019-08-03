@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/clicky_game/static/css/main.4b140465.chunk.css",
+    "main.js": "/clicky_game/static/js/main.6fb83cc0.chunk.js",
+    "main.js.map": "/clicky_game/static/js/main.6fb83cc0.chunk.js.map",
+    "runtime~main.js": "/clicky_game/static/js/runtime~main.33627756.js",
+    "runtime~main.js.map": "/clicky_game/static/js/runtime~main.33627756.js.map",
+    "static/js/2.98dcc9dd.chunk.js": "/clicky_game/static/js/2.98dcc9dd.chunk.js",
+    "static/js/2.98dcc9dd.chunk.js.map": "/clicky_game/static/js/2.98dcc9dd.chunk.js.map",
+    "index.html": "/clicky_game/index.html",
+    "precache-manifest.826cf2bbc966fb7f5a08dcf41b252d8e.js": "/clicky_game/precache-manifest.826cf2bbc966fb7f5a08dcf41b252d8e.js",
+    "service-worker.js": "/clicky_game/service-worker.js",
+    "static/css/main.4b140465.chunk.css.map": "/clicky_game/static/css/main.4b140465.chunk.css.map",
+    "static/media/strawberry.jpg": "/clicky_game/static/media/strawberry.6943d691.jpg"
+  }
+}
