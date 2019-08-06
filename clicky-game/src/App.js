@@ -30,7 +30,7 @@ class App extends Component {
         clickedFruit: [],
         score: 0
       });
-      // alert("You lose. Would you like to play again?");
+      alert("You lose. Would you like to play again?");
 
       //* if clicked on an available fruit, score increases by 1.
     } else {
@@ -45,7 +45,7 @@ class App extends Component {
         //* if user guesses all correctly then they win!
         () => {
           if (this.state.score === 12) {
-            // alert("You win! Would you like to play again?");
+            alert("You win! Would you like to play again?");
             this.setState({
               fruit: this.state.fruit.sort(function (a, b) {
                 return 0.5 - Math.random();
